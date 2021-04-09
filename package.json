@@ -1,0 +1,26 @@
+{
+    "name": "neon",
+    "displayName": "Neon",
+    "description": "A vaporwave inspired theme.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Neon Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Neon-Dark-color-theme.json"
+            },
+            {
+                "label": "Neon Light",
+                "uiTheme": "vs",
+                "path": "./themes/Neon-Light-color-theme.json"
+            }
+        ]
+    }
+}
