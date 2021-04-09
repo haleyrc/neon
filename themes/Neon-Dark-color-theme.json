@@ -1,0 +1,91 @@
+{
+  "name": "Neon Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1e1f25",
+    "editor.foreground": "#F7F7F7",
+    "activityBarBadge.background": "#54ca91",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "activityBar.background": "#1e1f25",
+    "activityBar.foreground": "#eee",
+    "statusBar.background": "#202127",
+    "statusBar.foreground": "#eee",
+    "statusBarItem.remoteBackground": "#1e1f25",
+    "statusBarItem.remoteForeground": "#eee",
+    "sideBar.background": "#202127",
+    "scrollbarSlider.background": "#2E2F38",
+    "scrollbarSlider.activeBackground": "#eeeeee55",
+    "scrollbarSlider.hoverBackground": "#eee",
+    "scrollbar.shadow": "#1e1f25"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ffffff67"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "string constant.other.placeholder"],
+      "settings": {
+        "foreground": "#FF5F00"
+      }
+    },
+    {
+      "name": "Keyword, Storage",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#ff5fff"
+      }
+    },
+
+    {
+      "name": "Function, Special Method",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "variable.function",
+        "support.function",
+        "keyword.other.special-method"
+      ],
+      "settings": {
+        "foreground": "#00ffff"
+      }
+    },
+
+    {
+      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "support.constant",
+        "constant.character",
+        "constant.escape",
+        "variable.parameter",
+        "keyword.other.unit",
+        "keyword.other"
+      ],
+      "settings": {
+        "foreground": "#966AD7"
+      }
+    },
+    {
+      "name": "String, Symbols, Inherited Class, Markup Heading",
+      "scope": [
+        "string",
+        "constant.other.symbol",
+        "constant.other.key",
+        "entity.other.inherited-class",
+        "markup.heading",
+        "markup.inserted.git_gutter",
+        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+      ],
+      "settings": {
+        "foreground": "#54ca91"
+      }
+    }
+  ]
+}
