@@ -16,7 +16,13 @@
     "scrollbarSlider.background": "#2E2F38",
     "scrollbarSlider.activeBackground": "#eeeeee55",
     "scrollbarSlider.hoverBackground": "#eee",
-    "scrollbar.shadow": "#1e1f25"
+    "scrollbar.shadow": "#1e1f25",
+    "titleBar.activeBackground": "#202127",
+    "tab.activeBackground": "#202127",
+    "terminal.background": "#202127",
+    "panel.background": "#202127",
+    "panel.border": "#202127",
+    "sideBarSectionHeader.background": "#1e1f25"
   },
   "tokenColors": [
     {
